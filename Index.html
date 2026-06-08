@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terry 的个人网页</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      background: #f5f7fb;
+      color: #222;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 24px;
+      padding: 48px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    button {
+      margin-top: 24px;
+      padding: 14px 24px;
+      border: none;
+      border-radius: 999px;
+      background: #2563eb;
+      color: white;
+      font-size: 18px;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 40px 16px;
+      }
+
+      .card {
+        padding: 32px 24px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>你好，我是 Terry</h1>
+      <p>
+        这是我的第一个个人网页。这里以后可以放文章、作品、视频号内容、小说、摄影作品，或者任何我想展示给世界的东西。
+      </p>
+      <button onclick="alert('你好，Terry！')">点我一下</button>
+    </div>
+  </div>
+</body>
+</html>
